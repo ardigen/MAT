@@ -1,7 +1,7 @@
 # MAT
 The official implementation of the Molecule Attention Transformer.
 
-![](https://drive.google.com/uc?export=view&id=1KfaI-WmEdkSoHDQd4TdoajXDS9w77eTG)
+![](https://github.com/gmum/MAT/blob/master/assets/MAT.png)
 
 
 ## Code
@@ -20,13 +20,13 @@ Pretrained weights are available [here](https://drive.google.com/open?id=11-TZj8
 In this section we present the average rank across the 7 datasets from our benchmark.
 
 - Results for hyperparameter search budget of 500 combinations.
-![](https://drive.google.com/uc?export=view&id=1H2qIg4cCvZuPrL-m3-RN0nlw942u6SvY)
+![](https://github.com/gmum/MAT/blob/master/assets/results_500.png)
 
 - Results for hyperparameter search budget of 150 combinations.
-![](https://drive.google.com/uc?export=view&id=1AnideQr3BFbqTDhZsxcnjmvuOvGRP_F3)
+![](https://github.com/gmum/MAT/blob/master/assets/results_150.png)
 
 - Results for pretrained model
-![](https://drive.google.com/uc?export=view&id=1JDmRLc_gl-HGTtsxLW1ASX35SGrqWkXm)
+![](https://github.com/gmum/MAT/blob/master/assets/results_pretrained.png)
 
 
 ## Requirements
