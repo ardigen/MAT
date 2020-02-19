@@ -1,8 +1,9 @@
 # MAT
 The official implementation of the Molecule Attention Transformer.
 
-![](https://github.com/gmum/MAT/blob/master/assets/MAT.png)
-
+<p align='center'>
+<img src="https://github.com/gmum/MAT/blob/master/assets/MAT.png" alt="architecture" width="600"/>
+</p>
 
 ## Code
 - `load_weights.ipynb` jupyter notebook with an example of loading pretrained weights into MAT,
