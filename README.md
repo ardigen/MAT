@@ -1,5 +1,5 @@
 # MAT
-The official implementation of the Molecule Attention Transformer.
+The official implementation of the Molecule Attention Transformer. [ArXiv](https://arxiv.org/abs/2002.08264)
 
 <p align='center'>
 <img src="https://github.com/gmum/MAT/blob/master/assets/MAT.png" alt="architecture" width="600"/>
