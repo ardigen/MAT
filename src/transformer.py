@@ -201,7 +201,6 @@ class EdgeFeaturesLayer(nn.Module):
         self.linear = nn.Linear(d_edge, 1, bias=False)
         with torch.no_grad():
             self.linear.weight.fill_(0.25)
-        # self.dropout = nn.Dropout(dropout)
 
     def forward(self, x):
         p_edge = x.permute(0, 2, 3, 1)
@@ -336,10 +335,6 @@ class PositionwiseFeedForward(nn.Module):
             
 
     def forward(self, x):
-        """
-        TODO: Tutaj mozna jeszcze wrzucic jakas nieliniowosc na koniec, bo gdy
-        N_dense = 1, to mamy zwykle mnozenie macierzy
-        """
         if self.N_dense == 0:
             return x
         
