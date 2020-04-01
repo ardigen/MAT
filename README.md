@@ -6,7 +6,7 @@ The official implementation of the Molecule Attention Transformer. [ArXiv](https
 </p>
 
 ## Code
-- `load_weights.ipynb` jupyter notebook with an example of loading pretrained weights into MAT,
+- `EXAMPLE.ipynb` jupyter notebook with an example of loading pretrained weights into MAT,
 - `transformer.py` file with MAT class implementation,
 - `utils.py` file with utils functions.
 
